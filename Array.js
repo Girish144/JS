@@ -1,6 +1,5 @@
 let myarray=[1,2,3,4,5];
 console.log(myarray);
-console.log(myarray.length);
 //Accessing Elements
 console.log(myarray[0]);
 console.log(myarray[3]);
