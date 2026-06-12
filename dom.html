@@ -3,11 +3,39 @@
         
     </head>
     <body>
+        //DOM SELECTING ELEMENT BY ID
         <h1 id="hello">Welcome</h1>
 
+
+        //DOM SELECTING ELEMENT BY CLASS
+        <p class="text">Paragraph1</p>
+
+        //DOM SELECTING ELEMENT BY TAG
+        <P>HTML</P>
+        <P>CSS</P>
+        <P>JavaScript</P>
+
+        //DOM QUERY SELECTOR
+        <p class="dot">paragraph13</p>"
+
+        //dom query selector all
+        <p class="demo1">paragraph14</p>
+        <p class="demo1">paragraph15</p>
+
         <script>
-            document.getElementById("hello").innerHTML="Welcome Girish";
+            document.getElementById("hello").style.color="red";
            
+            let elements=document.getElementsByClassName("text");
+            console.log(elements[0].innerHTML);
+
+            let elements1=document.getElementsByTagName("p");
+            console.log(elements1[0].innerHTML);
+
+            let element2=document.querySelector(".dot");
+            console.log(element2.innerHTML);
+
+            let elements3=document.querySelectorAll(".demo1");
+            console.log(elements3[0].innerHTML);
         </script>
     </body>
 </html>

@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title> call back function</title>
+
+    </head>
+    <body>
+        <script>
+            function greet(name,callback){
+                console.log("hello"+ name);
+                callback();
+            }
+            function message(){
+                console.log("welocme to call back message");
+
+            }
+            greet("girish",message);
+        </script>
+
+    </body>
+</html>
